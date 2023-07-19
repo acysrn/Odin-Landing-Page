@@ -1,0 +1,189 @@
+* {
+    font-family: roboto;
+    margin: 0%;
+}
+
+.header, .footer {
+    color: white;
+}
+
+.header, .cards {
+    padding: 1% 10%;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header, .footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+ul, li, a {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+  
+.sign-up {
+    background-color: #1F2937;
+    padding: 5% 10%;
+    color: white;
+    display: flex;
+}
+
+.sign-up-p {
+    padding: 20px 60px 20px 0px;
+}
+
+.sign-up-btn {
+    background-color: #3882F6;
+    border: #3882F6;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: white;
+    margin: 20px 0px;
+}
+
+.img {
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.cards, .cards-h2 {
+    color: #1F2937;
+    flex: 1;
+    padding: 2% 10%;
+    margin: 0px;
+    text-align: center;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+}
+
+.img-card {
+    width: 200px;
+    height: 200px;
+    border-radius: 15PX;
+}
+
+
+.card-p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-p > div {
+    flex: 1;
+    padding: 2%;
+    margin: 0px;
+    text-align: center;
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    padding: 5% 25%;
+    margin: 0px;
+    
+}
+
+.quotes > p {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quotes > h3 {
+    text-align: right;
+    padding: 30px;
+}
+
+.cta {
+    padding: 5% 10%;
+}
+
+.cta-box {
+    width: 800px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    flex: 1;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+.cta-text {
+    padding: 30px 30px 10px 60px;
+}
+
+/* need to fix button style */
+
+.cta-btn {
+    padding: 30px 80px 10px 10px;
+    background-color: #3882F6;
+    border-style: solid;
+    border: white;
+    border-radius: 5px;
+    color: white;
+}
+
+.sign-up-btn:hover, .cta-btn-style:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.sign-up-btn:active, .cta-btn-style:active {
+    transform: scale(.98);
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.cta-btn-style {
+    border-style: solid;
+    border: white;
+    border-radius: 5px;
+    color: white;
+    background-color: #3882F6;
+    border-style: solid;
+    padding: 10px 25px;
+}
+
+.footer {
+    text-align: center;
+    padding: 40px;
+    font-size: 14;
+    margin: auto;
+}
+
+.footer-btn {
+    color: rgb(255, 255, 255);
+    border: #1F2937;
+    border-radius: 5px;
+    background-color: #1F2937;
+    font-size: 24px;
+    padding: 40px 20px;
+    margin: auto;
+}
+
+.footer-btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
