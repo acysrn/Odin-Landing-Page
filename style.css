@@ -15,19 +15,20 @@
     justify-content: space-between;
 }
 
-
 .header, .footer {
     background-color: #1F2937;
 }
 
 .logo {
+    display: flex;
     font-weight: bold;
+    flex: 1 ;
 }
 
 ul, li, a {
     display: flex;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     gap: 8px;
     list-style: none;
     text-decoration: none;
